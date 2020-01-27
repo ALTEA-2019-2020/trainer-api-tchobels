@@ -1,0 +1,15 @@
+package trainer_api.bo;
+
+import com.miage.altea.trainer_api.bo.Pokemon;
+import org.junit.Test;
+
+import javax.persistence.Embeddable;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+public class PokemonTest {
+    @Test
+    public void pokemon_shouldBeAnEmbeddable() {
+        assertNotNull(Pokemon.class.getAnnotation(Embeddable.class));
+    }
+}
