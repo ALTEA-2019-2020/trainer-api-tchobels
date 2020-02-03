@@ -5,3 +5,6 @@ ${POSTGRESQL_ADDON_DB}
 ${POSTGRESQL_ADDON_USER}
 ${POSTGRESQL_ADDON_PASSWORD}
 ${POSTGRESQL_ADDON_URI}
+
+# URL
+https://trainer-api-tchobels.herokuapp.com
