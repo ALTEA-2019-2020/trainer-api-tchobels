@@ -8,4 +8,8 @@ public interface TrainerService {
     Trainer getTrainer(String name);
 
     Trainer createTrainer(Trainer trainer);
+
+    Trainer update(Trainer trainer);
+
+    void delete(String name);
 }

@@ -1,7 +1,6 @@
-package trainer_api.bo;
+package com.miage.altea.trainer_api.bo;
 
-import com.miage.altea.trainer_api.bo.Trainer;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;

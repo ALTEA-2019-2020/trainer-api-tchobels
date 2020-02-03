@@ -1,20 +1,19 @@
-package trainer_api.repository;
+package com.miage.altea.trainer_api.repository;
 
 import com.miage.altea.trainer_api.bo.Pokemon;
 import com.miage.altea.trainer_api.bo.Trainer;
-import com.miage.altea.trainer_api.repository.TrainerRepository;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureDataJpa;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
+@AutoConfigureDataJpa
 public class TrainerRepositoryTest {
 
     @Autowired
