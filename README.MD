@@ -1,5 +1,3 @@
-N'oubliez pas de set vos var d'env : 
-
 # utilisation de vos paramètres de connexion
 ${POSTGRESQL_ADDON_HOST}
 ${POSTGRESQL_ADDON_PORT}
