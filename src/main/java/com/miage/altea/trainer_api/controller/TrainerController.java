@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/trainers")
 public class TrainerController {
-    public final TrainerService trainerService;
+    private final TrainerService trainerService;
 
     @Autowired
     public TrainerController(TrainerService trainerService) {

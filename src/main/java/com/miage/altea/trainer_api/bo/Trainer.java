@@ -3,6 +3,7 @@ package com.miage.altea.trainer_api.bo;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -22,4 +23,7 @@ public class Trainer {
 
     @ElementCollection
     private List<Pokemon> team;
+
+    @Column
+    private String password;
 }
