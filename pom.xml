@@ -1,6 +1,6 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.altea.miaga</groupId>
+    <groupId>com.altea.miage</groupId>
     <artifactId>trainer-api</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
