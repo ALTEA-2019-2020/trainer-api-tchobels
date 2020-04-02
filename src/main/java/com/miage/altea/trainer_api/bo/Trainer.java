@@ -1,7 +1,6 @@
 package com.miage.altea.trainer_api.bo;
 
 import lombok.*;
-import lombok.experimental.FieldDefaults;
 
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;

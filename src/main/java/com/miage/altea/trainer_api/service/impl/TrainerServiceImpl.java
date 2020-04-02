@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TrainerServiceImpl implements TrainerService {
-    public TrainerRepository trainerRepository;
+    private TrainerRepository trainerRepository;
 
     @Autowired
     public TrainerServiceImpl(TrainerRepository trainerRepository) {
